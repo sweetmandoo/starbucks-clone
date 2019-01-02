@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700i,900i');
+
+.rewards-card-area {
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    background-image: url("../Resources/Images/Main/StarbucksCard.jpg");
+}
+
+.rewards-card-area .rewards-card-desc{
+    /* width: 100%; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 55%;
+    margin-right: 5%;
+
+}
+
+.rewards-card-desc .rewards-card-title {
+    font-size: 38px;
+    color: #2D2D2D;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.rewards-card-desc .rewards-card-content {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.rewards-card-desc .rewards-card-button {
+    font-size: 16px;
+    border: 1px solid #2D2D2D;
+    border-radius: 5px;
+    padding: 10px 0 7px 0;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.rewards-area {
+    background-color: #0f0f0f;
+    height: 240px; 
+    display: flex;
+}
+
+.rewards-area .rewards-image-area {
+    width: 100%;
+    margin-left: 70px;
+    background-repeat: no-repeat;
+    height: inherit;
+    background-image: url(../Resources/Images/Main/MSR-chalk-background.jpg);
+}
+
+.rewards-logo img {
+    width: 240px;
+    margin-top: 85px;
+}
+
+.rewards-area .rewards-desc{
+    color: white;
+    margin-top: 40px;
+    margin-left: -60%;
+    margin-right: 70px;
+}
+
+.rewards-desc .rewards-title{
+    font-size: 36px;
+}
+
+.rewards-desc .rewards-content{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.rewards-desc .rewards-buttons{
+    margin-top: 20px;
+    display: flex;
+}
+
+.rewards-buttons .rewards-join-now-button {
+    font-size: 16px;
+    border: 1px solid #E8CE9E;
+    background: #E8CE9E;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 0 7px 0;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.rewards-buttons .rewards-sign-in-button{
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 0 7px 0;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.black-and-white-area{
+    display: flex;
+    align-items: center;
+    padding: 70px 130px;
+}
+
+
+.black-and-white-area .black-and-white-desc {
+    margin-left: 150px;
+}
+
+.black-and-white-desc .black-and-white-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.black-and-white-desc .black-and-white-content {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.black-and-white-desc .black-and-white-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+}
