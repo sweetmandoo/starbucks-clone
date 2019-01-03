@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700i,900i');
 
 .rewards-card-area {
     height: 560px;
@@ -17,7 +16,6 @@
     justify-content: center;
     margin-left: 55%;
     margin-right: 5%;
-
 }
 
 .rewards-card-desc .rewards-card-title {

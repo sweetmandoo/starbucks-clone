@@ -1,0 +1,124 @@
+
+
+.blend-area {
+    height: 600px;
+    background-image: url("../Resources/Images/Coffee/Blend.jpg");
+    background-position: center -10px;
+}
+
+.blend-area .blend-area-desc{
+    /* width: 100%; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 55%;
+}
+
+.blend-area-desc .blend-area-title {
+    font-size: 38px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.blend-area-desc .blend-area-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.6em;
+}
+
+
+
+.best-coffee-area {
+    height: 619px;
+    background-image: url("../Resources/Images/Coffee/bg-finder-bottom.jpg");
+    display: flex;
+    align-items: center;
+}
+
+
+
+.best-coffee-area img {
+    max-width: 100%;
+    padding: 40px 40px;
+}
+
+
+
+.best-coffee-area .best-coffee-area-desc {
+    margin-left: 72px;
+    margin-right: 90px;
+}
+
+
+
+.best-coffee-area-desc .best-coffee-area-title {
+    margin-bottom: 35px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+.best-coffee-area-desc .best-coffee-area-content {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+
+.best-coffee-area-desc .best-coffee-area-link {
+    margin-bottom: 40px;
+}
+
+.best-coffee-area-link a {
+    border-bottom: 1px dotted black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.reserve-area {
+    height: 500px;
+    color: white;
+}
+
+.reserve-area .reserve-area-bg {
+    height: 430px;
+    align-items: center;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../Resources/Images/Coffee/BG-Reserve.jpg");
+}
+
+.reserve-area-bg img {
+    margin-top: 85px;
+    margin-left: 85px;
+}
+
+.reserve-area-bg .reserve-area-desc {
+    margin-left: 120px;
+    margin-right: 60px;
+}
+
+.reserve-area-desc .reserve-area-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.reserve-area-desc .reserve-area-content {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.4em;
+}

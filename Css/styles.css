@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700i,900i');
+
+
 @import 'reset.css';
 @import 'globals.css';
 @import 'navmenu.css';
 @import 'index.css';
 @import 'tea.css';
 @import 'menu.css';
+@import 'coffee.css';
