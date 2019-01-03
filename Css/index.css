@@ -58,7 +58,7 @@
     margin-left: 70px;
     background-repeat: no-repeat;
     height: inherit;
-    background-image: url(../Resources/Images/Main/MSR-chalk-background.jpg);
+    background-image: url("../Resources/Images/Main/MSR-chalk-background.jpg");
 }
 
 .rewards-logo img {

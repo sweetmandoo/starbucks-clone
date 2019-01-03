@@ -1,0 +1,50 @@
+
+.tea-page-link {
+    color: #2B8815;
+}
+
+.tea-page-area {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 73px;
+}
+
+.tea-main-area img {
+    width: 100%;
+}
+
+.tea-main-area .tea-main-area-title{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.tea-main-area .tea-main-area-content {
+    max-width: 750px;
+    margin-bottom: 28px;
+}
+
+.tea-sub-items {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tea-sub-item{
+    max-width: 400px;
+    margin-right: 40px;
+}
+
+.tea-sub-item img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tea-sub-item .tea-sub-item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tea-sub-item .tea-sub-item-content{
+    font-size: 14px;
+}
