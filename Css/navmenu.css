@@ -29,7 +29,19 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 70%;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
+}
+
+.navmenu-item a{
+    padding: 1em 1.6em;
+    text-decoration: none;
+    color: #242221;
+}
+
+.navmenu-item a:hover{
+    color: #f7f7f7;
+    background-color: #242221;
+    border-bottom: 1px solid #242221;
 }
 
 .navmenu-lower .navmenu-store{
