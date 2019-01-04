@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 
-
 .navmenu-header{
     width: 100%;
 }
@@ -20,7 +19,7 @@
 
 .navmenu-lower .navmenu-logo{
     /* padding: 20px 15px 20px 0; */
-    margin: 15px 0 15px 0;
+    margin: 15px 10px;
 }
 
 .navmenu-lower .navmenu-items{
@@ -59,4 +58,49 @@
 .navmenu-lower .navmenu-store-area-separate{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.navmenu-store-area-min, .navmenu-sign-area-min {
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+
+    .navmenu-item, .navmenu-store-area,
+    .navmenu-store-area-separate, .navmenu-sign-area{
+        display: none;
+    }
+
+    .navmenu-store-min{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .navmenu-store-area-min, .navmenu-sign-area-min {
+        display: block;
+    }
+
+    .navmenu-sign-area-min {
+        color: #5b5959;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .navmenu-sotre-area-min {
+        margin-top: 15px;
+    }
+
+    .navmenu-store-area-min .fa-map-marker {
+        color: #2D775C;
+        margin-right: 10px;
+    }
+
+    .navmenu-store-area-min .fa-bars {
+        color: #2D775C;
+        margin-left: 10px;
+    }
 }
