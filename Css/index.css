@@ -53,7 +53,7 @@
 
 .rewards-area .rewards-image-area {
     width: 100%;
-    margin-left: 70px;
+    padding-left: 70px;
     background-repeat: no-repeat;
     height: inherit;
     background-image: url("../Resources/Images/Main/MSR-chalk-background.jpg");
@@ -138,4 +138,109 @@
     text-decoration: none;
     color: black;
     border-bottom: 1px dotted black;
+}
+
+@media screen and (max-width: 495px){
+
+    .rewards-card-area{
+        background-image: url("../Resources/Images/Main/b14f2aa82b5645d8b8f85916a5524d51.jpg");
+        max-height: 675px;
+        background-size: auto 675px;
+    }
+
+    .rewards-card-area .rewards-card-desc{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0;
+        padding: 0 20px 55px 20px;
+    }
+
+    .rewards-card-desc .rewards-card-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .rewards-card-desc .rewards-card-content {
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .rewards-area {
+        display: flex;
+        flex-direction: column;
+        height: 349px;
+    }
+
+    .rewards-logo img {
+        width: 165px;
+        margin-top: 42px;
+    }
+
+    .rewards-area .rewards-desc{
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+
+    .rewards-desc .rewards-title{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .rewards-desc .rewards-content{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .rewards-desc .rewards-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rewards-buttons .rewards-join-now-button{
+        width: 90%;
+    }
+
+    .rewards-buttons .rewards-sign-in-button{
+        width: 90%;
+        margin: 10px 0 0 0;
+    }
+
+    .black-and-white-area{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .black-and-white-logo img {
+        width: 90%;
+        padding-left: 10%;
+        padding-top: 10%;
+        height: auto;
+    }
+
+    .black-and-white-area .black-and-white-desc {
+        margin-left: 0px;
+    }
+
+    .black-and-white-desc .black-and-white-title {
+        margin-top: 20px;
+    }
+
+    .black-and-white-desc .black-and-white-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .black-and-white-desc{
+        text-align: center;
+        padding-bottom: 20px;
+    }
 }

@@ -102,5 +102,6 @@
     .navmenu-store-area-min .fa-bars {
         color: #2D775C;
         margin-left: 10px;
+        cursor: pointer;
     }
 }
